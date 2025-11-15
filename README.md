@@ -34,13 +34,13 @@ This plugin is compatible with versions >= 2.4.0 of `@medusajs/medusa`.
 ## Installation
 
 ```bash
-npm install @ridoy-sarker/medusa-cloudinary
+npm install @ridoy_sarker/medusa-cloudinary
 ```
 
 or
 
 ```bash
-yarn add @ridoy-sarker/medusa-cloudinary
+yarn add @ridoy_sarker/medusa-cloudinary
 ```
 
 ## Configuration
@@ -77,7 +77,7 @@ module.exports = defineConfig({
       options: {
         providers: [
           {
-            resolve: "@ridoy-sarker/medusa-cloudinary/providers/cloudinary",
+            resolve: "@ridoy_sarker/medusa-cloudinary/providers/cloudinary",
             id: "cloudinary",
             options: {
               apiKey: process.env.CLOUDINARY_API_KEY,
